@@ -7,10 +7,10 @@
   <style>
     body { font-family: sans-serif; margin: 0; background: #f7f9fc; color: #333; line-height: 1.6; }
     header { background: #003865; color: white; padding: 2rem 1rem; display: flex; justify-content: center; }
-    .header-container { display: flex; justify-content: space-between; align-items: center; max-width: 960px; width: 100%; }
-    .header-left { max-width: 50%; padding-left: 1rem; }
-    .header-left p { margin: 0.3rem 0; }
-    .header-right { display: flex; justify-content: center; align-items: center; padding-right: 1rem; }
+    .header-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; width: 100%; }
+    .header-left { padding-left: 1rem; line-height: 1.4; }
+    .header-left h1, .header-left p { margin: 0.2rem 0; }
+    .header-right { display: flex; align-items: center; justify-content: flex-end; padding-right: 1rem; }
     .profile-img {
       width: 220px;
       height: 220px;
@@ -20,8 +20,8 @@
     }
     nav { background: #002c54; text-align: center; padding: 0.5rem; }
     nav a { color: #fff; text-decoration: none; margin: 0 1rem; font-weight: bold; }
-    .container { max-width: 960px; margin: 2rem auto; padding: 1rem; background: white; border-radius: 6px; box-shadow: 0 0 8px rgba(0,0,0,0.1); display: flex; gap: 1rem; }
-    .main-content { flex: 2; }
+    .container { display: flex; max-width: 1200px; margin: 0 auto; padding: 20px; gap: 40px; }
+    .main-content { flex: 3; min-width: 0; }
     .sidebar { flex: 1; max-height: 100vh; overflow-y: auto; background: #f4f4f4; padding: 1rem; border-radius: 6px; }
     h1, h2, h3 { color: #003865; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
@@ -46,15 +46,16 @@
     </div>
   </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#research">Research</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#supervision">Supervision</a>
-  <a href="#grants">Grants</a>
-  <a href="#past-projects">Past Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#supervision">Supervision</a>
+    <a href="#grants">Grants</a>
+    <a href="#past-projects">Past Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
 
 <style>
   .container {
