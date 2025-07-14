@@ -6,7 +6,15 @@
   <title>Dr. Sefki Kolozali</title>
   <style>
     body { font-family: sans-serif; margin: 0; background: #f7f9fc; color: #333; line-height: 1.6; }
-    header { background: #003865; color: white; padding: 2rem 1rem; text-align: center; }
+    header { background: #003865; color: white; padding: 2rem 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; text-align: left; }
+    .header-text { max-width: 500px; }
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      object-fit: cover;
+      border: 3px solid #fff;
+    }
     nav { background: #002c54; text-align: center; padding: 0.5rem; }
     nav a { color: #fff; text-decoration: none; margin: 0 1rem; font-weight: bold; }
     .container { max-width: 960px; margin: 2rem auto; padding: 1rem; background: white; border-radius: 6px; box-shadow: 0 0 8px rgba(0,0,0,0.1); }
@@ -19,9 +27,11 @@
 </head>
 <body>
   <header>
-    <h1>Dr. Sefki Kolozali</h1>
-    <p>Lecturer in Embedded and Intelligent Systems, University of Essex</p>
-    <img src="SefkiKolozali.jpg" alt="Dr. Sefki Kolozali" style="width:200px; height:200px; border-radius: 100px; margin-top: 1rem; object-fit: cover; border: 3px solid #fff;" />
+    <div class="header-text">
+      <h1>Dr. Sefki Kolozali</h1>
+      <p>Lecturer in Embedded and Intelligent Systems, University of Essex</p>
+    </div>
+    <img src="SefkiKolozali.jpg" alt="Dr. Sefki Kolozali" class="profile-img" />
   </header>
 
   <nav>
@@ -36,8 +46,8 @@
   <div class="container">
     <section id="about">
       <h2>Biography</h2>
-      <p>I am a Lecturer in Embedded and Intelligent Systems at the University of Essex, and I am part of the Robotics and Embedded Systems Research Group. My interests include IoT, Edge Computing, ML, Signal Processing, Federated Learning and applications to healthcare. I also explore high-order tensor decompositions, multimodal learning, explainable AI, and energy-efficient AI. I lead the Internet of Things and Machine Intelligence Lab within the Future Health Technologies cluster and serve as an EPSRC reviewer, EU expert, and editor at PLOS ONE.</p>
-      <p>Previously, I was a Postdoctoral Research Fellow at Essex, a Research Associate at King’s College London, and a Research Fellow at the University of Surrey. I received my BSc from Near East University, MSc from Essex, and PhD from QMUL (EPSRC-funded), focused on semantic audio-based ontology generation.</p>
+      <p>I am a Lecturer in Embedded and Intelligent Systems at the University of Essex, and I am part of the Robotics and Embedded Systems Research Group. My interests include the fields of Internet of Things, Edge Computing, Machine Learning, Time Series Analysis, Signal Processing, Semantic Web, Federated Learning and their applications to various healthcare scenarios. Additionally, I have a particular interest in high-order tensor decompositions, multi-aspect learning, multimodal learning, explainable AI, and energy-efficient AI technologies. I am a member of the EPSRC Peer Review College and a registered expert with the European Commission. Additionally, I serve as an editor at PLOS ONE and as a reviewer for both the EPSRC and the European Commission. Furthermore, I act as a reviewer for several prominent journals, including the IEEE Internet of Things Journal, ACM Transactions on Internet of Things, IEEE Transactions on Emerging Topics in Computing, IEEE Transactions on Industrial Informatics, and Neural Computing and Applications.</p>
+      <p>I am leading the Internet of Things and Machine Intelligence Lab as part of the Future Health Technologies cluster. Previously, I was a Postdoctoral Research Fellow at the Institute of Analytics and Data Science, University of Essex. Before that I worked as a Research Associate in Applied Big Data Analysis at the MRC-PHE Centre for Environment and Health, King's College London. I worked on exploring links between the environment and human health through the analysis of very large time series datasets. I was part of the COPE study team, which aimed to reduce the frequency of hospital and GP visits by patients with respiratory disease. I also worked as a Research Fellow in large-scale data analytics for the Internet of Things at the 5G innovation centre, University of Surrey, where I was a work package leader in large scale data analysis and seamless integration of data sources in the CityPulse project. I received a B.Sc. degree in Computer Engineering from Near East University (NEU), Nicosia, Turkish Republic of Northern Cyprus (TRNC), in 2005. I received an M.Sc. degree from the University of Essex and a PhD degree from Queen Mary University of London (QMUL). My thesis was titled Automatic Ontology Generation Based on Semantic Audio Analysis. I received full scholarship for BSc from the NEU and TRNC, and full scholarship for PhD from the NEMA and EPSRC projects at QMUL.</p>
     </section>
 
     <section id="research">
@@ -54,18 +64,14 @@
 
     <section id="publications">
       <h2>Selected Publications</h2>
+      <p>A full list of publications is available on request or through academic databases.</p>
       <ul>
         <li>Kolozali et al., IEEE Journal of Biomedical and Health Informatics (2024): Prediction of Gestational Diabetes using wearable data</li>
         <li>Kolozali et al., Neural Computing and Applications (2023): COPD detection with environmental sensors</li>
         <li>Van Heerden & Kolozali, South African Journal of Clinical Nutrition (2023): Continuous glucose monitoring in pregnancy</li>
         <li>Wachter et al., Nuclear Engineering and Technology (2022): ML-based anomaly detection under gamma radiation</li>
-        <li>Kolozali et al., Neural Computing and Applications (2016): Time-series IoT data analysis</li>
-        <li>Kolozali et al., IEEE Internet of Things Journal (2019): Smart City data federation framework</li>
-        <li>Kolozali et al., IEEE Transactions on Audio, Speech, and Language Processing (2013): Ontology generation for musical instruments</li>
         <li>Farajidavar, Kolozali & Barnaghi (2017): Multi-view learning for city events from Twitter</li>
-        <li>Comas et al., PLOS ONE (2024): Skin tone transfer with conditional normalizing flows</li>
-        <li>Hung et al., PLOS ONE (2025): HR error in PPG wearables across skin tones</li>
-        <li>Bent et al., npj Digital Medicine (2020): Investigating PPG sensor inaccuracies</li>
+        <li>Kolozali et al., IEEE Transactions on Audio, Speech, and Language Processing (2013): Ontology generation for musical instruments</li>
       </ul>
     </section>
 
